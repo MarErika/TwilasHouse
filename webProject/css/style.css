@@ -1,0 +1,85 @@
+
+#start_house_tour{  
+    background: url("https://www.kindpng.com/picc/m/152-1522324_blue-rectangle-png-transparent-png.png"); 
+       background-repeat: no-repeat;
+       background-size: contain;
+       background-position: center; 
+    }
+    
+    /* trying commenting out the below section of code */
+    .horizontalList li{
+      display: inline-block;
+      padding: 20px;
+    }
+    
+    /* and uncomment the below section of code */
+    ul, li{
+    list-style-type:none;
+    text-decoration: none;
+    }
+
+    #talk_with_manga{  
+        background: url("https://www.kindpng.com/picc/m/152-1522324_blue-rectangle-png-transparent-png.png"); 
+           background-repeat: no-repeat;
+           background-size: contain;
+           background-position: center; 
+        }
+        
+        /* trying commenting out the below section of code */
+        .horizontalList li{
+          display: inline-block;
+          padding: 20px;
+        }
+        
+        /* and uncomment the below section of code */
+        ul, li{
+        list-style-type:none;
+        text-decoration: none;
+        }
+
+        #arson{  
+            background: url("https://www.kindpng.com/picc/m/152-1522324_blue-rectangle-png-transparent-png.png"); 
+               background-repeat: no-repeat;
+               background-size: contain;
+               background-position: center; 
+            }
+            
+            /* trying commenting out the below section of code */
+            .horizontalList li{
+              display: inline-block;
+              padding: 20px;
+            }
+            
+            /* and uncomment the below section of code */
+            ul, li{
+            list-style-type:none;
+            text-decoration: none;
+            }
+
+            #credit{  
+                background: url("https://www.kindpng.com/picc/m/152-1522324_blue-rectangle-png-transparent-png.png"); 
+                   background-repeat: no-repeat;
+                   background-size: contain;
+                   background-position: center; 
+                }
+                
+                /* trying commenting out the below section of code */
+                .horizontalList li{
+                  display: inline-block;
+                  padding: 20px;
+                }
+                
+                /* and uncomment the below section of code */
+                ul, li{
+                list-style-type:none;
+                text-decoration: none;
+                }
+body {
+    background-color: blanchedalmond;
+    background-image: url('../images/houseplaceholder.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  
