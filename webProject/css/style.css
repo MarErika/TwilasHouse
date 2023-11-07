@@ -1,85 +1,135 @@
+/* styles.css */
 
-#start_house_tour{  
-    background: url("https://www.kindpng.com/picc/m/152-1522324_blue-rectangle-png-transparent-png.png"); 
-       background-repeat: no-repeat;
-       background-size: contain;
-       background-position: center; 
-    }
-    
-    /* trying commenting out the below section of code */
-    .horizontalList li{
-      display: inline-block;
-      padding: 20px;
-    }
-    
-    /* and uncomment the below section of code */
-    ul, li{
-    list-style-type:none;
-    text-decoration: none;
-    }
+/* Resetting default list styles */
+ul.verticalList {
+  list-style-type: none;
+  padding: 0;
+}
 
-    #talk_with_manga{  
-        background: url("https://www.kindpng.com/picc/m/152-1522324_blue-rectangle-png-transparent-png.png"); 
-           background-repeat: no-repeat;
-           background-size: contain;
-           background-position: center; 
-        }
-        
-        /* trying commenting out the below section of code */
-        .horizontalList li{
-          display: inline-block;
-          padding: 20px;
-        }
-        
-        /* and uncomment the below section of code */
-        ul, li{
-        list-style-type:none;
-        text-decoration: none;
-        }
+/* Style for each list item with custom background images */
 
-        #arson{  
-            background: url("https://www.kindpng.com/picc/m/152-1522324_blue-rectangle-png-transparent-png.png"); 
-               background-repeat: no-repeat;
-               background-size: contain;
-               background-position: center; 
-            }
-            
-            /* trying commenting out the below section of code */
-            .horizontalList li{
-              display: inline-block;
-              padding: 20px;
-            }
-            
-            /* and uncomment the below section of code */
-            ul, li{
-            list-style-type:none;
-            text-decoration: none;
-            }
+.start_house_tour {
+  height: 250px;
+  width: 250px;
+  background: url('../images/starthousetourbutton.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
 
-            #credit{  
-                background: url("https://www.kindpng.com/picc/m/152-1522324_blue-rectangle-png-transparent-png.png"); 
-                   background-repeat: no-repeat;
-                   background-size: contain;
-                   background-position: center; 
-                }
-                
-                /* trying commenting out the below section of code */
-                .horizontalList li{
-                  display: inline-block;
-                  padding: 20px;
-                }
-                
-                /* and uncomment the below section of code */
-                ul, li{
-                list-style-type:none;
-                text-decoration: none;
-                }
+.talk_with_manga {
+  height: 250px;
+  width: 250px;
+  background: url('../images/talkbutton.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.arson {
+  height: 250px;
+  width: 250px;
+  background: url('../images/arsonbutton.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.credits{
+  height: 250px;
+  width: 250px;
+  background-image: url('../images/creditsbutton.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+
+/* Style for the clickable links */
+ul.verticalList li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Chalkboard', sans-serif;
+}
+
+/* Hover effect for list items */
+.start_house_tour:hover {
+  background: url('../images/sstarttourbuttonHOVER.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  padding: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.talk_with_manga:hover {
+  background: url('../images/talkbuttonHOVER.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  padding: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.arson:hover {
+  background: url('../images/arsonbuttonHOVER.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  padding: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.credits:hover {
+  background: url('../images/creditsbuttonHOVER.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  padding: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
 body {
-    background-color: blanchedalmond;
-    background-image: url('../images/houseplaceholder.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-  
-  
+  background-color: blanchedalmond;
+  background-image: url('../images/twilashousebackground.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'Chalkboard';
+  src: url('../fonts/chalkboard_font/Chalkboard.ttf');
+}
+
+h1 {
+  font-family: 'Chalkboard', sans-serif;
+}
+
+
+/* verticalList -> text-stuff*/
+
+.text-stuff {
+  color: black;
+  font-family: 'Chalkboard', sans-serif; /* Apply the custom font */
+}
+
+.verticalList a {
+  text-decoration: none;
+}
+
+#start_house_tour{
+ background-color: red;
+ border: solid 3px blue;
+ border-radius: 10px;
+ width: 150px;
+ height: 60px;
+}
