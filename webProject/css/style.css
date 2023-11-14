@@ -8,23 +8,35 @@ ul.verticalList {
 
 /* Style for each list item with custom background images */
 
-.start_house_tour {
-  height: 250px;
-  width: 250px;
-  background: url('../images/starthousetourbutton.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  border-radius: 10px;
-}
-
-.talk_with_manga {
-  height: 250px;
-  width: 250px;
-  background: url('../images/talkbutton.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  border-radius: 10px;
-}
+#firstButton{
+  margin-top: 20vh;;
+  }
+  
+  .start_house_tour {
+   
+    height: 250px;
+    width: 250px;
+    background: url('../images/starthousetourbutton.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+  /* background-color: red; */
+    /* move text to fit in div */
+    padding-left:60px;
+    padding-top: 60px;
+    margin-top: 20vh;
+  }
+  
+  .talk_with_manga {
+    height: 250px;
+    width: 250px;
+    background: url('../images/talkbutton.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding-left:60px;
+    padding-top: 60px;
+  }
 
 .arson {
   height: 250px;
@@ -33,6 +45,8 @@ ul.verticalList {
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 10px;
+  padding-left:60px;
+  padding-top: 60px;
 }
 
 .credits{
@@ -42,6 +56,8 @@ ul.verticalList {
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 10px;
+  padding-left:60px;
+  padding-top: 60px;
 }
 
 
@@ -57,19 +73,14 @@ ul.verticalList li a {
   background: url('../images/sstarttourbuttonHOVER.png');
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: left;
-  padding: 20px;
-  margin-left: 20px;
   cursor: pointer;
+  /* background-color: red; */
 }
 
 .talk_with_manga:hover {
   background: url('../images/talkbuttonHOVER.png');
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: left;
-  padding: 20px;
-  margin-left: 20px;
   cursor: pointer;
 }
 
@@ -77,9 +88,6 @@ ul.verticalList li a {
   background: url('../images/arsonbuttonHOVER.png');
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: left;
-  padding: 20px;
-  margin-left: 20px;
   cursor: pointer;
 }
 
@@ -87,9 +95,6 @@ ul.verticalList li a {
   background: url('../images/creditsbuttonHOVER.png');
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: left;
-  padding: 20px;
-  margin-left: 20px;
   cursor: pointer;
 }
 
