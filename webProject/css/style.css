@@ -1,10 +1,6 @@
 /* styles.css */
 
-/* Resetting default list styles */
-ul.verticalList {
-  list-style-type: none;
-  padding: 0;
-}
+
 
 /* Style for each list item with custom background images */
 
@@ -14,8 +10,8 @@ ul.verticalList {
   
   .start_house_tour {
    
-    height: 250px;
-    width: 250px;
+    height: 60px;
+    width: 210px;
     background: url('../images/starthousetourbutton.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -28,8 +24,8 @@ ul.verticalList {
   }
   
   .talk_with_manga {
-    height: 250px;
-    width: 250px;
+    height: 60px;
+    width: 210px;
     background: url('../images/talkbutton.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -39,8 +35,8 @@ ul.verticalList {
   }
 
 .arson {
-  height: 250px;
-  width: 250px;
+  height: 60px;
+  width: 210px;
   background: url('../images/arsonbutton.png');
   background-size: contain;
   background-repeat: no-repeat;
@@ -50,8 +46,8 @@ ul.verticalList {
 }
 
 .credits{
-  height: 250px;
-  width: 250px;
+  height: 60px;
+  width: 210px;
   background-image: url('../images/creditsbutton.png');
   background-size: contain;
   background-repeat: no-repeat;
@@ -66,6 +62,21 @@ ul.verticalList li a {
   text-decoration: none;
   color: white;
   font-family: 'Chalkboard', sans-serif;
+}
+
+.verticalList a {
+  text-decoration: none;
+}
+
+/* Resetting default list styles */
+ul.verticalList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.verticalList{
+  position:fixed;
+  bottom: 5%;
 }
 
 /* Hover effect for list items */
@@ -127,9 +138,6 @@ h1 {
   font-family: 'Chalkboard', sans-serif; /* Apply the custom font */
 }
 
-.verticalList a {
-  text-decoration: none;
-}
 
 #start_house_tour{
  background-color: red;
@@ -137,4 +145,10 @@ h1 {
  border-radius: 10px;
  width: 150px;
  height: 60px;
+}
+
+#iframe{
+  position:absolute;
+  right: 1%;
+  bottom: 1%;
 }
