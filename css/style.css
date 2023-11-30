@@ -1,0 +1,154 @@
+/* styles.css */
+
+
+
+/* Style for each list item with custom background images */
+
+#firstButton{
+  margin-top: 20vh;;
+  }
+  
+  .start_house_tour {
+   
+    height: 60px;
+    width: 210px;
+    background: url('../images/starthousetourbutton.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+  /* background-color: red; */
+    /* move text to fit in div */
+    padding-left:60px;
+    padding-top: 60px;
+    margin-top: 20vh;
+  }
+  
+  .talk_with_manga {
+    height: 60px;
+    width: 210px;
+    background: url('../images/talkbutton.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding-left:60px;
+    padding-top: 60px;
+  }
+
+.arson {
+  height: 60px;
+  width: 210px;
+  background: url('../images/arsonbutton.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding-left:60px;
+  padding-top: 60px;
+}
+
+.credits{
+  height: 60px;
+  width: 210px;
+  background-image: url('../images/creditsbutton.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding-left:60px;
+  padding-top: 60px;
+}
+
+
+/* Style for the clickable links */
+ul.verticalList li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Chalkboard', sans-serif;
+}
+
+.verticalList a {
+  text-decoration: none;
+}
+
+/* Resetting default list styles */
+ul.verticalList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.verticalList{
+  position:fixed;
+  bottom: 5%;
+}
+
+/* Hover effect for list items */
+.start_house_tour:hover {
+  background: url('../images/sstarttourbuttonHOVER.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  /* background-color: red; */
+}
+
+.talk_with_manga:hover {
+  background: url('../images/talkbuttonHOVER.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.arson:hover {
+  background: url('../images/arsonbuttonHOVER.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.credits:hover {
+  background: url('../images/creditsbuttonHOVER.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+body {
+  background-color: blanchedalmond;
+  background-image: url('../images/twilashousebackground.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'Chalkboard';
+  src: url('../fonts/chalkboard_font/Chalkboard.ttc');
+}
+
+h1 {
+  font-family: 'Chalkboard', sans-serif;
+}
+
+
+/* verticalList -> text-stuff*/
+
+.text-stuff {
+  color: black;
+  font-family: 'Chalkboard', sans-serif; /* Apply the custom font */
+}
+
+
+#start_house_tour{
+ background-color: red;
+ border: solid 3px blue;
+ border-radius: 10px;
+ width: 150px;
+ height: 60px;
+}
+
+#iframe{
+  position:absolute;
+  right: 1%;
+  bottom: 1%;
+}
